@@ -8,8 +8,12 @@ def main():
     i = 0
     k = 0
     with open(img, "rb") as f_im:
-        b = f_im.read(80)   # the first 10 lines of a bmp file are the ones we need
+        b = f_im.read(5000)   # the first 10 lines of a bmp file are the ones we need
         encoded_text_im.write(b)
+
+        l = f"{len(txt)}"
+        sz = "0"*(4-len(l))+l
+        encoded_text_im.write(bytes(sz, "utf-8"))  # writes the len of the text
         b = f_im.read(1)  # the first 10 lines of a bmp file are the ones we need
         encoded_text_im.write(bytes(txt[k], "utf-8"))
         i = 1
