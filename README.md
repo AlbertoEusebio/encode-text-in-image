@@ -6,15 +6,21 @@ this is the original file
 
 
 this is the version with the secret message
+
+
 ![message_encripted_file](https://github.com/AlbertoEusebio/encode-text-in-image/blob/main/assets/encoded_text_im.bmp?raw=true)
 
 
 this is what happens when writing
-![message_encripted_file](https://github.com/AlbertoEusebio/encode-text-in-image/blob/main/assets/screen_writing.png?raw=true)
+
+
+![message_writing](https://github.com/AlbertoEusebio/encode-text-in-image/blob/main/assets/screen_writing.png?raw=true)
 
 
 this is the message read
-![message_encripted_file](https://github.com/AlbertoEusebio/encode-text-in-image/blob/main/assets/screen_reading.png?raw=true)
+
+
+![message_reading](https://github.com/AlbertoEusebio/encode-text-in-image/blob/main/assets/screen_reading.png?raw=true)
 
 
 
