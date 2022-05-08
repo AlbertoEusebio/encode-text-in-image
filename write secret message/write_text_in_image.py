@@ -4,7 +4,7 @@ def main():
     img = input("Select the '.bmp' image you want to use for encoding(path): ")
     txt = input("Text: ")
 
-    encoded_text_im = open("../assets/encoded_tex_im.bmp", "wb")    # saves in a specific folder for reading
+    encoded_text_im = open("../assets/encoded_text_im.bmp", "wb")    # saves in a specific folder for reading
     i = 0
     k = 0
     with open(img, "rb") as f_im:

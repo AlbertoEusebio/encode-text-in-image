@@ -2,7 +2,7 @@ def main():
 
     txt = ""
 
-    with open("../assets/encoded_tex_im.bmp", "rb") as f_enc:
+    with open("../assets/encoded_text_im.bmp", "rb") as f_enc:
         f_enc.read(5000)   # the first 80 bytes are the header and ignored
 
         sz = int(f_enc.read(4).decode("utf-8"))  # reads the len
