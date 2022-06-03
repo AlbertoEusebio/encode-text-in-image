@@ -7,10 +7,16 @@ a simple example of a python script to encode a small text in a image
 ![original_file](https://github.com/AlbertoEusebio/encode-text-in-image/blob/main/assets/github-code-logo-open-source.bmp?raw=true)
 
 
-## this is the version with the secret message
+## this is the version embedding the secret message by substituting the bytes
 
 
 ![message_encripted_file](https://github.com/AlbertoEusebio/encode-text-in-image/blob/main/assets/encoded_text_im.bmp?raw=true)
+
+
+## this is the version embedding the secret message using the LSB
+
+
+![message_encripted_file](https://github.com/AlbertoEusebio/encode-text-in-image/blob/main/assets/logo_stego.bmp?raw=true)
 
 
 ## this is what happens when writing
